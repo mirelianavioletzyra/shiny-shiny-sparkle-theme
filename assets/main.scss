@@ -119,7 +119,18 @@ header {
 	}
 }
 
+.admin-bar {
+	header {
+		&.site-header {
+			top: 2rem;
+		}
+	}
+}
+
 /* Main */
+.wp-site-blocks {
+	padding: 0;
+}
 
 main {
 	.wp-block-query {
