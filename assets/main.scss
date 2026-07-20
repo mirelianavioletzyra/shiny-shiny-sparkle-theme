@@ -102,6 +102,10 @@ body {
 
 header {
 	&.site-header {
+		background-image: linear-gradient(135deg, rgb(213, 140, 255) 0%, rgb(164, 255, 255) 22%, rgb(162, 255, 194) 46%, rgb(251, 255, 166) 69%, rgb(255, 156, 207) 99%);
+		position: sticky;
+		top: 0;
+		z-index: 1;
 		padding: 0 $spacing-horizontal;
 
 		.wp-block-search {
@@ -350,11 +354,6 @@ ul.wp-block-post-template {
 @media (max-width: $media-max-width-sm) {
 	header {
 		&.site-header {
-			background-image: linear-gradient(135deg, rgb(213, 140, 255) 0%, rgb(164, 255, 255) 22%, rgb(162, 255, 194) 46%, rgb(251, 255, 166) 69%, rgb(255, 156, 207) 99%);
-			position: sticky;
-			top: 0;
-			z-index: 1;
-
 			.wp-block-navigation {
 				.wp-block-navigation__container {
 					width: 100%;
