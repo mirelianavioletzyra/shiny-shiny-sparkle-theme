@@ -106,7 +106,7 @@ header {
 		position: sticky;
 		top: 0;
 		z-index: 1;
-		padding: 0 $spacing-horizontal;
+		padding: 0.2rem $spacing-horizontal;
 
 		.wp-block-search {
 			max-width: 290px;
@@ -117,6 +117,14 @@ header {
 			}
 		}
 	}
+}
+
+.wp-block-site-logo img {
+	max-width: 3rem;
+}
+
+p.wp-block-site-tagline {
+	font-size: 1.2rem;
 }
 
 .admin-bar {
