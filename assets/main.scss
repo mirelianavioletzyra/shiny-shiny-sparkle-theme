@@ -33,6 +33,12 @@ $media-max-width-lg: 999px; // var(--wp--custom--media-max-width--lg);
 	--custom--media-max-width--lg: #{$media-max-width-lg};
 }
 
+// ill fix it later start
+button {
+    padding: 0.2rem 1rem !important;
+    border-radius: 5px !important;
+}
+// ill fix it later end
 /**
  * General
  */
